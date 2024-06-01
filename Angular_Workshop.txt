@@ -1,0 +1,211 @@
+************************
+Angular Workshop:
+************************
+Whats new in Angular v18?
+
+1. New Documentation update: Angular.dev
+A new website:Angular.dev and angular.io is gone
+A new identity
+
+
+2.New Control flow template syntax:
+Instead of ngIf,we can use:
+@if(loggendIn){
+The user is logger in 
+}
+@else{
+The user is not logged in
+}
+
+Instead of ngFor,we can use:
+@for(user of users;track user.id){
+{{user.name}}
+}
+@empty {
+Empty list of users
+}
+
+Instead of ngSwitch,we can use:
+@switch(accessLevel){
+@case('admin') { <admin-dashboard/> }
+@case('moderator') { <moderator-dashboard/> }
+@default { <user-dashboard/> }
+}
+
+3>Defer Block:
+Allows deferred loading of components,directives, and pipes, inclusing css:
+
+
+***************************
+Server-side rendering:
+37% more apps are using server-side 
+rendering since the release of Angular 17
+
+why server side rendering ?
+Speed:
+Seacrh-engine optimization:
+Better performance:
+
+Difference before/after using server-side rendering(SSR)
+Before using SSR:
+After using SSR:
+
+Server-side rendering:
+1>If you're creating a brand new  v17+project,the CLI will automatically ask if you want to add SSR.
+2>You can also specify it in your command:
+ng new --ssr
+3>And if you want to add it to an exiting project,after upgrading it to v17:
+ng add @angular/ssr
+
+Server-side rendering :Event Reply
+
+
+API Content:
+1>fallback content for ng-content
+When using content projection, we can specify default content in case nothing is projected:
+
+
+FormControl,Group and Array Events:
+Allows you to subscribe to a stream of events for aform control/group/array
+
+
+Route redirects as functions:
+
+Angular Material 3 is now stable:
+1>New website at https://materia;.angular.io/
+2>SSR-compatible and standalone Angular components with a refereshed look and feel...!!!
+
+*******************************
+Signals and change detection:
+******************************
+Everything else is all about Angular Signals
+Introduced in v16,out of developer preview in v17,futher improved in v18
+
+
+Default Angular Change Detection(Zone.js)
+
+Change Detection with Singals
+
+Zoneless change detection is available in Angular 18
+
+Three reactive primitives:
+singal
+computed 
+effect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
